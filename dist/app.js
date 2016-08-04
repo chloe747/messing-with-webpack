@@ -1,11 +1,11 @@
-!function(e){function r(o){if(n[o])return n[o].exports;var t=n[o]={exports:{},id:o,loaded:!1};return e[o].call(t.exports,t,t.exports,r),t.loaded=!0,t.exports}var n={};return r.m=e,r.c=n,r.p="",r(0)}([/*!**********************!*\
+!function(e){function t(n){if(r[n])return r[n].exports;var o=r[n]={exports:{},id:n,loaded:!1};return e[n].call(o.exports,o,o.exports,t),o.loaded=!0,o.exports}var r={};return t.m=e,t.c=r,t.p="",t(0)}([/*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-function(e,r,n){var o=n(/*! moarRender */2);document.write("I compiled yay!\n"),o()},/*!*******************************!*\
+function(e,t,r){"use strict";var n=r(/*! moarRender */2);document.write("I compiled yay!\n"),n()},/*!*******************************!*\
   !*** ./src/evenMoarRender.js ***!
   \*******************************/
-function(e,r){e.exports=function(){document.write("evenMoarRender -- MORE RENDER STUFF YAY WEBPACK!")}},/*!***************************!*\
+function(e,t){"use strict";e.exports=function(){document.write("evenMoarRender -- MORE RENDER STUFF YAY WEBPACK!")}},/*!***************************!*\
   !*** ./src/moarRender.js ***!
   \***************************/
-function(e,r,n){var o=n(/*! evenMoarRender */1);e.exports=function(){document.write("moarRender -- More compile yay!"),o()}}]);
+function(e,t,r){"use strict";var n=r(/*! evenMoarRender */1);e.exports=function(){document.write("moarRender -- More compile yay!"),n()}}]);
 //# sourceMappingURL=app.js.map
