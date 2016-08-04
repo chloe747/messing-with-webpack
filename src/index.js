@@ -1,4 +1,4 @@
-var moarJS = require('moarRender');
+import moarRender from './moarRender';
 
 document.write('I compiled yay!\n');
-moarJS();
+moarRender();
