@@ -12,6 +12,7 @@ var config = {
     loaders: [
       {
         test: /\.jsx?$/,
+        exclude: /node_modules/,
         loaders: ['babel']
       }
     ]
