@@ -7,5 +7,5 @@ function(e,t,r){"use strict";var n=r(/*! moarRender */2);document.write("I compi
 function(e,t){"use strict";e.exports=function(){document.write("evenMoarRender -- MORE RENDER STUFF YAY WEBPACK!")}},/*!***************************!*\
   !*** ./src/moarRender.js ***!
   \***************************/
-function(e,t,r){"use strict";var n=r(/*! evenMoarRender */1);e.exports=function(){document.write("moarRender -- More compile yay!"),n()}}]);
+function(e,t,r){"use strict";function n(e){return e&&e.__esModule?e:{"default":e}}Object.defineProperty(t,"__esModule",{value:!0}),t["default"]=function(){document.write("moarRender -- More compile yay!"),(0,u["default"])()};var o=r(/*! evenMoarRender */1),u=n(o)}]);
 //# sourceMappingURL=app.js.map

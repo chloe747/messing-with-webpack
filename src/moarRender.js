@@ -1,6 +1,6 @@
-var evenMoarRender = require('evenMoarRender');
+import evenMoarRender from 'evenMoarRender';
 
-module.exports = function() {
+export default function() {
   document.write('moarRender -- More compile yay!');
   evenMoarRender();
 };
