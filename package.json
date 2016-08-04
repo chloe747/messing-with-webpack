@@ -17,5 +17,11 @@
   },
   "dependencies": {
     "extract-text-webpack-plugin": "^1.0.1"
-  }
+  },
+  "babel": {
+    "presets": [
+        "es2015",
+        "stage-0"
+    ]
+},
 }
