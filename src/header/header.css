@@ -3,6 +3,8 @@
   height: 100px;
   font-size: 18px;
   background-color: darkseagreen;
+  user-select: none;
+  cursor:default;
 }
 
 .header-center {
