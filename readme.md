@@ -20,7 +20,7 @@ node.js expressJS server on localhost:8080/webpack-dev-server/
 
 ###Tech used
 ####[Webpack](https://webpack.github.io/)
-Webpack is the main focus of this example repo, as webpack makes all the other
+Webpack is the main focus of this example repo, as Webpack makes all the other
 tech used extremely easy to compile into regular html/js/css.
 
 All Webpack does is 'compile' all the modules used from the entry javascript
@@ -52,12 +52,12 @@ source code.
 
 Another nice thing is the [CSS-loader](https://github.com/webpack/css-loader),
 The CSS loader allows us to use CSS classes in a local namespace, so we can
-have multiple css files with the same name classes that will all be
-independent of eachother. This also allows us to import the CSS file as an
+have multiple CSS files with the same name classes that will all be
+independent of each other. This also allows us to import the CSS file as an
 object, and use the classes as they come in that file.
 
 ####[CommonJS importing](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-commonjs)
-althoug the import/export is an ES6 feature, you still have to import them
+although the import/export is an ES6 feature, you still have to import them
 rather clunky by going
 
 ```
