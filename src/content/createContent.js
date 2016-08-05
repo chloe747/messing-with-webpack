@@ -2,7 +2,7 @@ import * as style from "./contentStyle.css";
 import createContentblock from "./createContentblock";
 
 export default function(el) {
-  const COLOUR_DIVS_TO_CREATE = 10;
+  const COLOUR_DIVS_TO_CREATE = 16;
 
   //create content content content container
   const container = document.createElement('DIV');

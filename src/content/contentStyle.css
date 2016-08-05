@@ -10,3 +10,21 @@
   height: 100px;
   margin: none;
 }
+
+.content-text--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    > p {
+      opacity: 1;
+    }
+  }
+}
+
+.content-text {
+  margin: auto;
+  font-size: 16px;
+  opacity: 0;
+}

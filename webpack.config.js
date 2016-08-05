@@ -7,7 +7,7 @@ module.exports = {
   entry:  {
     javascript: "./src/",
     html: "./index.html",
-  },             //will look for index.js, unless I specify a name
+  },
   output: {
     path: __dirname + '/dist',
     filename: 'app.js'
