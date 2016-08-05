@@ -25,7 +25,12 @@
     "plugin:import/warnings"
   ],
 
+  "settings": {
+    "import/resolver": "webpack"
+  },
+
   "rules": {
-    "no-console": 1
+    "no-console": 1,
+    "import/namespace": [0, { "allowComputed": false }]
   }
 }

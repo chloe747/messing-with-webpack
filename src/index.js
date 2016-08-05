@@ -1,4 +1,10 @@
-import moarRender from './moarRender';
+import * as style from 'style.css';
+import createHeader from 'header/createHeader';
+import createContent from 'content/createContent';
 
-document.write('I compiled yay!\n');
-moarRender();
+const entryPointDiv = document.querySelector('#app');
+const appDiv = document.createElement('DIV');
+appDiv.className = style['app'];
+entryPointDiv.appendChild(appDiv);
+createHeader(appDiv);
+createContent(appDiv);
