@@ -1,7 +1,7 @@
 import * as style from "./contentStyle.css";
 import createContentblock from "./createContentblock";
 
-export default function(el) {
+export default function() {
   const COLOUR_DIVS_TO_CREATE = 16;
 
   //create content content content container
@@ -13,6 +13,6 @@ export default function(el) {
     container.appendChild(createContentblock());
   }
 
-  //append the content container to the passed in divs
-  el.appendChild(container);
+  //return the content container
+  return container;
 }

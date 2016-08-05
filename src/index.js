@@ -15,7 +15,7 @@ appDiv.className = style['app'];
 entryPointDiv.appendChild(appDiv);
 
 //create the header
-createHeader(appDiv);
+appDiv.appendChild(createHeader());
 
 //create the content
-createContent(appDiv);
+appDiv.appendChild(createContent());

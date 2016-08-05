@@ -1,5 +1,5 @@
 #Messing with Webpack
-##Created by chloe747
+##Created by Chloe Smith - github.com/chloe747
 
 ###How to use
 To use this little demo project, simply clone this repo, then when the repo has

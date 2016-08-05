@@ -1,6 +1,7 @@
 import * as styles from "./header.css";
 
-export default function(el) {
+export default function() {
+  
   //create and style the header element
   const header = document.createElement('HEADER');
   header.className = `${styles['header']} ${styles['header-center']}`;
@@ -12,8 +13,9 @@ export default function(el) {
   const headerText = document.createTextNode('Webpack Example Funtimes!');
 
   //set everything to the element passed in
-  el.appendChild(header);
   header.appendChild(headerH1);
   headerH1.appendChild(headerText);
 
+  //return the header
+  return header;
 }
