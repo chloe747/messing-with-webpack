@@ -86,4 +86,17 @@ and now we can just do this!
 
 ```
 import helperFile from './helperFile';
-````
+```
+
+###Fork ideas
+####React
+This repo was made so that you could easily convert a lot of the JavaScript
+files into React Components, although you'd have to setup Webpack to compile
+React.
+
+####Bootstrap
+Another way to improve this repo would be to practice Bootstrap
+
+####Multiple HTML Pages
+I have to figure out how to properly compile JavaScript using Webpack for a
+multiple html page website
