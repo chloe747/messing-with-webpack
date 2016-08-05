@@ -56,6 +56,26 @@ have multiple CSS files with the same name classes that will all be
 independent of each other. This also allows us to import the CSS file as an
 object, and use the classes as they come in that file.
 
+####[Post-css loader](https://github.com/postcss/postcss-loader) with [autoprefixer](https://github.com/postcss/autoprefixer)
+Cool little loader that runs after sass-loader, but before css-loader.
+this loader checks all of the css statements in the file, and adds any vendor
+prefixes to get the style working on all browsers, etc
+
+```
+:fullscreen a {
+    display: flex
+}
+```
+compiles into
+```
+:fullscreen a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+```
+making CSS and SCSS files much, much more neater
+
 ####[CommonJS importing](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-commonjs)
 although the import/export is an ES6 feature, you still have to import them
 rather clunky by going
