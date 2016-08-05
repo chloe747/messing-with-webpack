@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   user-select: none;
-  cursor:default;
+  cursor:pointer;
 
   &:hover {
     > p {
